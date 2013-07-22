@@ -1,0 +1,403 @@
+{
+	"system" : {
+		"width" : 480,
+		"height" : 480
+	},
+    "map" : {
+		"width" : 20,
+		"height" : 20,
+		"tileWidth" : 48,
+		"tileHeight" : 48,
+		"data" : [],
+		"terrain_data" : [
+			[0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0, -1, -1, -1, -1,  0,  0, -1, -1, -1,  -1, 0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0, -1, 11,  0,  0,  0,  0,  0,  0, 11,  -1, 0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0, -1, 11,  0,  0,  0,  0,  0,  0, 11,  -1, 0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0, -1, 11,  0,  0,  0,  0,  0,  0,  0,  -1, 0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0,  0,  0,  0,  0, -1, -1,  0,  0,  0,  -1, 0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0,  0,  0,  0,  0, 13, 12,  0,  0,  0,  -1, 0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0, -1,  0,  0,  0,  0,  0,  0,  0, 12,  -1, 0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0, -1, 11,  1,  0,  0,  0,  0,  0, 12,  -1, 0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0, -1, -1, -1, -1,  0,  0, -1, -1, -1,  -1, 0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0], 
+			[0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0]  
+		],
+		"mission" : {
+			"max_round" : 5,
+			"key_chara" : {
+				"110001" : 1
+			}
+		},
+		"image" : "../images/map/HM_1.png"
+	},
+	"player_unit" : [
+		{
+			"master_attr" : {
+				"chara_id" : 110001,
+				"name": "项梁",
+				"level" : 1,
+				"school" : 90,
+				"hp" : 110,
+				"mp" : 40,
+				"atk" : 25,
+				"def" : 25,
+				"intl" : 25,
+				"dex" : 15,
+				"mor" : 20,
+				"mov" : 3,
+				"rng" : 1,
+				"exp" : 100
+			},
+			"cur_attr" : {
+				"exp" : 10
+			},
+			"position" : {
+				"i" : 9,
+				"j" : 3,
+				"d" : 0
+			},
+			"resource" : {
+				"img_atk" : "../images/unit/Unit_atk_109.png",	
+				"img_mov" : "../images/unit/Unit_mov_109.png",	
+				"img_spc" : "../images/unit/Unit_spc_109.png"
+			},
+			"ai" : "DUMMY"
+		},
+		{
+			"master_attr" : {
+				"chara_id" : 110001,
+				"name": "项羽",
+				"level" : 1,
+				"school" : 90,
+				"hp" : 110,
+				"mp" : 20,
+				"atk" : 35,
+				"def" : 25,
+				"intl" : 5,
+				"dex" : 25,
+				"mor" : 20,
+				"mov" : 4,
+				"rng" : 1,
+				"exp" : 100
+			},
+			"cur_attr" : {
+				"exp" : 10
+			},
+			"position" : {
+				"i" : 10,
+				"j" : 3,
+				"d" : 0
+			},
+			"resource" : {
+				"img_atk" : "../images/unit/Unit_atk_135.png",	
+				"img_mov" : "../images/unit/Unit_mov_135.png",	
+				"img_spc" : "../images/unit/Unit_spc_135.png"
+			},
+			"ai" : "DUMMY"
+		}
+	],
+	"allies_unit" : [],
+	"enemy_unit" : [
+		{
+			"master_attr" : {
+				"chara_id" : 130001,
+				"name": "官兵",
+				"level" : 1,
+				"school" : 91,
+				"hp" : 100,
+				"mp" : 10,
+				"atk" : 20,
+				"def" : 12,
+				"intl" : 15,
+				"dex" : 15,
+				"mor" : 20,
+				"mov" : 4,
+				"rng" : 1,
+				"exp" : 100
+			},
+			"position" : {
+				"i" : 8,
+				"j" : 3,
+				"d" : 1
+			},
+			"resource" : {
+				"img_atk" : "../images/unit/Unit_atk_3.png",	
+				"img_mov" : "../images/unit/Unit_mov_3.png",	
+				"img_spc" : "../images/unit/Unit_spc_3.png"
+			},
+			"ai" : "DEFEND"
+		},
+		{
+			"master_attr" : {
+				"chara_id" : 130001,
+				"name": "官兵",
+				"level" : 1,
+				"school" : 91,
+				"hp" : 100,
+				"mp" : 10,
+				"atk" : 20,
+				"def" : 12,
+				"intl" : 15,
+				"dex" : 15,
+				"mor" : 20,
+				"mov" : 4,
+				"rng" : 1,
+				"exp" : 100
+			},
+			"position" : {
+				"i" : 11,
+				"j" : 3,
+				"d" : 3
+			},
+			"resource" : {
+				"img_atk" : "../images/unit/Unit_atk_3.png",	
+				"img_mov" : "../images/unit/Unit_mov_3.png",	
+				"img_spc" : "../images/unit/Unit_spc_3.png"
+			},
+			"ai" : "DEFEND"
+		},
+		{
+			"master_attr" : {
+				"chara_id" : 130001,
+				"name": "官兵",
+				"level" : 1,
+				"school" : 91,
+				"hp" : 100,
+				"mp" : 10,
+				"atk" : 20,
+				"def" : 12,
+				"intl" : 15,
+				"dex" : 15,
+				"mor" : 20,
+				"mov" : 4,
+				"rng" : 1,
+				"exp" : 100
+			},
+			"position" : {
+				"i" : 9,
+				"j" : 6,
+				"d" : 2
+			},
+			"resource" : {
+				"img_atk" : "../images/unit/Unit_atk_3.png",	
+				"img_mov" : "../images/unit/Unit_mov_3.png",	
+				"img_spc" : "../images/unit/Unit_spc_3.png"
+			},
+			"ai" : "DEFEND"
+		},
+		{
+			"master_attr" : {
+				"chara_id" : 130001,
+				"name": "官兵",
+				"level" : 1,
+				"school" : 91,
+				"hp" : 100,
+				"mp" : 10,
+				"atk" : 20,
+				"def" : 12,
+				"intl" : 15,
+				"dex" : 15,
+				"mor" : 20,
+				"mov" : 4,
+				"rng" : 1,
+				"exp" : 100
+			},
+			"position" : {
+				"i" : 10,
+				"j" : 6,
+				"d" : 2
+			},
+			"resource" : {
+				"img_atk" : "../images/unit/Unit_atk_3.png",	
+				"img_mov" : "../images/unit/Unit_mov_3.png",	
+				"img_spc" : "../images/unit/Unit_spc_3.png"
+			},
+			"ai" : "DEFEND"
+		},
+		{
+			"master_attr" : {
+				"chara_id" : 130066,
+				"name": "郡守",
+				"level" : 1,
+				"school" : 92,
+				"hp" : 120,
+				"mp" : 60,
+				"atk" : 10,
+				"def" : 32,
+				"intl" : 25,
+				"dex" : 15,
+				"mor" : 20,
+				"mov" : 4,
+				"rng" : 1,
+				"exp" : 100
+			},
+			"position" : {
+				"i" : 9,
+				"j" : 11,
+				"d" : 0
+			},
+			"resource" : {
+				"img_atk" : "../images/unit/Unit_atk_66.png",	
+				"img_mov" : "../images/unit/Unit_mov_66.png",	
+				"img_spc" : "../images/unit/Unit_spc_66.png"
+			},
+			"ai" : "DEFEND"
+		},
+		{
+			"master_attr" : {
+				"chara_id" : 130001,
+				"name": "官兵",
+				"level" : 1,
+				"school" : 91,
+				"hp" : 100,
+				"mp" : 10,
+				"atk" : 20,
+				"def" : 12,
+				"intl" : 15,
+				"dex" : 15,
+				"mor" : 20,
+				"mov" : 4,
+				"rng" : 1,
+				"exp" : 100
+			},
+			"position" : {
+				"i" : 10,
+				"j" : 11,
+				"d" : 0
+			},
+			"resource" : {
+				"img_atk" : "../images/unit/Unit_atk_3.png",	
+				"img_mov" : "../images/unit/Unit_mov_3.png",	
+				"img_spc" : "../images/unit/Unit_spc_3.png"
+			},
+			"ai" : "HOLD_POSITION"
+		}
+	],
+	"UI" : {
+		"mov_base" : "../images/menu/blue.png", 
+		"atk_base" : "../images/menu/red.png", 
+		"route_base" : "../images/menu/white.png",
+		"img_menu_atk" : "../images/menu/atk.png",
+		"img_menu_mov" : "../images/menu/mov.png",
+		"img_menu_ret" : "../images/menu/ret.png",
+		"ar" : "../images/menu/Mark_12-1.png"
+	},
+	"Menu": {
+		"base" : "../images/menu/black.png",
+		"icon" : {
+			"hp" : "../images/menu/heart.png",
+			"mp" : "../images/menu/magic.png",
+			"exp" : "../images/menu/exp.png",
+			"weapon" : "../images/menu/weapon.png",
+			"armor" : "../images/menu/armor.png"
+		},
+		"stat" : {
+			"seal" : "../images/menu/stat_seal.png",
+			"paralyze" : "../images/menu/stat_paralyze.png",
+			"confuse" : "../images/menu/stat_confuse.png"
+		},
+		"elem" : {
+			"fire" : "../images/menu/elem_fire.png",
+			"water" : "../images/menu/elem_water.png",
+			"air" : "../images/menu/elem_air.png",
+			"earth" : "../images/menu/elem_earth.png"
+		},
+		"bar" : {
+			"hp" : "../images/menu/bar_green.png",
+			"mp" : "../images/menu/bar_yellow.png",
+			"exp" : "../images/menu/bar_pink.png",
+			"hp_decr" : "../images/menu/bar_red.png",
+			"hp_incr" : "../images/menu/bar_blue.png",
+			"mp_decr" : "../images/menu/bar_red.png",
+			"mp_incr" : "../images/menu/bar/blue.png"
+		}
+	},
+	"SE" : {
+		"click" : 	 "../se/Se00.wav",
+		"cancel" : 	 "../se/Se01.wav",
+		"error" : 	 "../se/Se02.wav",
+		"unit": {
+			"level_up" : 	"../se/Se11.wav",
+			"die" : 		"../se/Se16.wav",
+			"foot_move" : 	"../se/Se23.wav",
+			"horse_move" : 	"../se/Se24.wav",
+			"def" :         "../se/Se30.wav",
+			"def_crit" :    "../se/Se31.wav",
+			"atk" :         "../se/Se32.wav",
+			"atk_crit" :    "../se/Se33.wav",
+			"atk_2" :       "../se/Se34.wav",
+			"hit" : 		"../se/Se35.wav",
+			"hit_crit" :    "../se/Se36.wav"
+		}
+	},
+	"sound" : [
+		"../se/Se00.wav",
+		"../se/Se01.wav",
+		"../se/Se02.wav",
+		"../se/Se11.wav",
+		"../se/Se16.wav",
+		"../se/Se23.wav",
+		"../se/Se24.wav",
+		"../se/Se30.wav",
+		"../se/Se31.wav",
+		"../se/Se32.wav",
+		"../se/Se33.wav",
+		"../se/Se34.wav",
+		"../se/Se35.wav",
+		"../se/Se36.wav"
+	],
+	"image" : [
+		"../images/unit/Unit_mov_109.png",
+		"../images/unit/Unit_atk_109.png",
+		"../images/unit/Unit_spc_109.png",
+		"../images/unit/Unit_mov_135.png",
+		"../images/unit/Unit_atk_135.png",
+		"../images/unit/Unit_spc_135.png",
+		"../images/unit/Unit_mov_66.png",
+		"../images/unit/Unit_atk_66.png",
+		"../images/unit/Unit_spc_66.png",
+		"../images/unit/Unit_mov_3.png",
+		"../images/unit/Unit_atk_3.png",
+		"../images/unit/Unit_spc_3.png",
+		"../images/map/HM_1.png",
+		"../images/menu/pie8.png",
+		"../images/menu/bar_red.png",
+		"../images/menu/bar_yellow.png",
+		"../images/menu/bar_green.png",
+		"../images/menu/bar_blue.png",
+		"../images/menu/bar_deepblue.png",
+		"../images/menu/bar_pink.png",
+		"../images/menu/heart.png",
+		"../images/menu/magic.png",
+		"../images/menu/exp.png",
+		"../images/menu/Mark_12-1.png",
+		"../images/menu/Mark_13-1.png",
+		"../images/menu/Mark_14-1.png",
+		"../images/menu/black.png",
+		"../images/menu/blue.png",
+		"../images/menu/green.png",
+		"../images/menu/white.png",
+		"../images/menu/red.png",
+		"../images/menu/atk.png",
+		"../images/menu/mov.png",
+		"../images/menu/ret.png",
+		"../images/menu/armor.png",
+		"../images/menu/weapon.png",
+		"../images/menu/stat_confuse.png",
+		"../images/menu/stat_paralyze.png",
+		"../images/menu/stat_seal.png",
+		"../images/menu/elem_fire.png",
+		"../images/menu/elem_water.png",
+		"../images/menu/elem_earth.png",
+		"../images/menu/elem_air.png"
+	]
+}
