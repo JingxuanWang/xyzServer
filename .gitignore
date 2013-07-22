@@ -1,3 +1,11 @@
 test-results/
 tmp/
 routes/
+
+public/images/
+public/se/
+
+scripts/output/
+scripts/src/
+
+log/

@@ -834,7 +834,7 @@ var BattleScene = enchant.Class.create(enchant.Scene, {
 		this._menu = new Group();
 		// TODO: the coordinate and menu layout should be changed
 		var atk_btn = new Sprite(32, 32);
-		atk_btn.image = GAME.assets["../images/menu/atk.png"]; 
+		atk_btn.image = GAME.assets["public/images/menu/atk.png"]; 
 		atk_btn.moveBy(- 24 - 32, 0);
 		atk_btn.addEventListener(enchant.Event.TOUCH_END, function(){
 			self.removeMenu();
@@ -843,7 +843,7 @@ var BattleScene = enchant.Class.create(enchant.Scene, {
 		});
 
 		var mov_btn = new Sprite(32, 32);
-		mov_btn.image = GAME.assets["../images/menu/mov.png"];
+		mov_btn.image = GAME.assets["public/images/menu/mov.png"];
 		mov_btn.moveBy(24, 0);
 		mov_btn.addEventListener(enchant.Event.TOUCH_END, function(){
 			self.removeMenu();
@@ -852,7 +852,7 @@ var BattleScene = enchant.Class.create(enchant.Scene, {
 		});
 
 		var ret_btn = new Sprite(32, 32);
-		ret_btn.image = GAME.assets["../images/menu/ret.png"];
+		ret_btn.image = GAME.assets["public/images/menu/ret.png"];
 		ret_btn.moveBy(-16, 48 + 24);
 		ret_btn.addEventListener(enchant.Event.TOUCH_END, function(){
 			self.removeMenu();

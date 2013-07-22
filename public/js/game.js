@@ -303,7 +303,7 @@ var Config = enchant.Class.create({
 			self._text = ajax.getResponseText();
 			callback.call();
 		});
-		ajax.load('../json/xyz.json');
+		ajax.load('public/json/xyz.json');
 	},
 	get: function(arr) {
 		var a = this._all;
